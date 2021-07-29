@@ -92,7 +92,6 @@ def random_line(afile='test.txt', default=None):
         if randrange(i) == 0:  # random int [0..i)
             line = aline
     return line
-
 #HELP
 def help():
     help = "_***WELCOME TO Amazon Shopper Bot! CHECK OUT COMMANDS AND MORE @ GITHUB: https://github.com/olong12/Amazon-Shopping-Bot/ ***_\n"
