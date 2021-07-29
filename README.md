@@ -48,9 +48,10 @@ python3 searchresults.py
 ```
 The results should be visible in search_results_output.jsonl. 
 
-## Either use the amazon links already compiled or manually input links to track price changes
-## You will be notified via email through SMTP protocol if an item is within range of your budget
-## However, you have to pass in 'DEVELOPER_EMAIL' and 'DEVELOPER_PASS' as OS variables, which you can find in google settings
+## Alert yourself when the price of an amazon item falls within your budget
+Either use the amazon links already compiled or manually input links to track price changes
+You will be notified via email through SMTP protocol if an item is within range of your budget
+However, you have to pass in 'DEVELOPER_EMAIL' and 'DEVELOPER_PASS' as OS variables, which you can find in google settings
 ```
 python3 amazon_scraper.py
 ```
